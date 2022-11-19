@@ -1,6 +1,15 @@
+import java.net.SocketPermission;
+
+import javax.naming.ldap.SortControl;
+
 class introduction {
     public static void main(String[] args) {
-        System.out.println("Hi my name is Rashmi Dhungana.");
-        System.out.println(3 + 5);
+        System.out.println("The sum of these numbers is");
+        int num1 = 6;
+        int num2 = 5;
+        int num3 = 7;
+        int sum = num1 + num2 + num3;
+        System.out.println(sum);
+
     }
 }
